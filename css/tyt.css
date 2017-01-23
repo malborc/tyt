@@ -1,0 +1,97 @@
+@charset "utf-8";
+html, body {
+    margin: 0;
+}
+
+* {
+	font-family: Lato;
+}
+.fondo {
+	box-sizing: border-box;
+	padding: 5.7vh 10vh;
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(86,86,86,1) 100%);
+    height:100vh;
+    width:100vw;
+}
+.equis-login {
+	height: 10vh;
+	background: url(svg/equis-login.svg) no-repeat center center;
+	background-size: auto 100%;
+	margin: 7vh auto 3vh auto;
+}
+.facebook-login {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px; 
+	background: linear-gradient(to bottom, rgba(163,177,206,1) 0%, rgba(109,131,178,1) 13%, rgba(59,89,152,1) 100%);
+    padding: 2vh 30px 2vh 30px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(255,255,255,1);
+    margin: 2vh auto;
+}
+.opcion {
+	color: rgba(135,135,135,1);
+	background-color: rgba(135,135,135,0);
+	text-align: center;
+	margin: 2vh auto;
+}
+.olvido {
+	color: rgba(135,135,135,1);
+	text-align: center;
+}
+.olvido a:link {
+	color: rgba(135,135,135,1);
+}
+.olvido a:visited {
+	color: rgba(135,135,135,1);
+}
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    border: 2px solid #ccc;
+    border-radius: 6px; 
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 2vh 20px 2vh 40px;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 1vh auto;
+}
+input[type=submit] {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px; 
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,244,124,1) 30%, rgba(254,234,0,1) 100%);
+    padding: 2vh 30px 2vh 30px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin: 1vh auto;
+}
+input[type=text]:focus {
+    border: 2px solid rgba(255,234,0,1);
+    transition: 1.0s;
+}
+.icon-nuevo-registro {
+	height: 12vh;
+	background: url(svg/icon-nuevo-registro.svg) no-repeat center center;
+	background-size: auto 100%;
+	margin: 3vh auto 1vh auto;
+}
+.nuevo-registro {
+	color: rgba(255,255,255,1);
+	background-color: rgba(135,135,135,0);
+	text-align: center;
+}
+.nuevo-registro a:link {
+	color: rgba(255,255,255,1);
+}
+.nuevo-registro a:visited {
+	color: rgba(255,255,255,1);
+}
